@@ -1,0 +1,20 @@
+{
+    "name": "jasacloud/scheduler",
+    "description": "Library to handle scheduler creator",
+    "keywords": ["Jasacloud", "Scheduler", "Cron", "Crontab", "Cronjob", "CrontabManager", "Library"],
+    "type": "library",
+    "homepage": "https://github.com/jasacloud/scheduler",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+	    "name": "Dwi BudUt",
+	    "email": "dwi@jasacloud.com",
+	    "homepage": "https://www.jasacloud.com",
+	    "role": "Developer"
+	}],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "files": ["src/Scheduler/Autoload.php"]
+    }
+}
